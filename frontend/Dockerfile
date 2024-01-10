@@ -2,7 +2,7 @@ FROM node:16-alpine
 
 ENV BACKEND_URL=http://0.0.0.0:4000
 
-ADD frontend /app 
+ADD . /app 
 
 WORKDIR /app 
 
