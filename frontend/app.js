@@ -27,5 +27,5 @@ app.get('/', async function(req, res) {
 });
 
 app.listen(3000,function() {
-    console.log('Ares listening on port 3000!');
+    console.log('Assignment-1 listening on port 3000!');
 });
